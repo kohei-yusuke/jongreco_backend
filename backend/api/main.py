@@ -22,7 +22,7 @@ app = FastAPI()
 
 #通信するアプリのURLを記載する。デプロイしたとき注意
 origins = [
-    "http://localhost:3000",
+    "https://jongreco.vercel.app/scoreCalculator",
 ]
 
 
